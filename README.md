@@ -1,2 +1,2 @@
-# filestash-ssl
-nginx configuration for using SSL with filestash
+# Filestash SSL
+**Nginx configuration for using SSL with [filestash](https://www.filestash.app/)**
