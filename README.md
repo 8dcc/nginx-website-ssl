@@ -1,5 +1,5 @@
 # Filestash SSL
-**Nginx configuration for using SSL with [filestash](https://www.filestash.app/)**
+**Nginx configuration for using SSL with [filestash](https://www.filestash.app/). Try it [here](https://r4v10l1.github.io/filestash-ssl/var/www/html/).**
 
 Check this out too: [r4v10l1/nginx-config](https://github.com/r4v10l1/nginx-config)
 
