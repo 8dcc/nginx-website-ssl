@@ -16,5 +16,14 @@ You need to edit all `YOUR-DOMAIN` and all `YOUR-USER`. In my case I used a loca
 ./nginx/nginx.conf:66:                      server_name YOUR-DOMAIN.com www.YOUR-DOMAIN.com;
 ./nginx/sites-available/filestash.conf:7:   server_name filestash.YOUR-DOMAIN.com;
 ./nginx/sites-enabled/filestash.conf:7:     server_name filestash.YOUR-DOMAIN.com;
-./var/www/html/index.html:25:               <button onclick="window.location='https://YOUR-DOMAIN.com/'">Go to filestash</button>
+./var/www/html/index.html:15:               <div class="text-title">Welcome to YOUR-DOMAIN.com&trade;</div>
+./var/www/html/index.html:17:               <button onclick="window.location='https://filestash.YOUR-DOMAIN.com/'">Go to filestash</button>
+```
+You will also need to edit the `EDIT-ME` on the HTML.
+```c
+./var/www/html/index.html:4:                <meta name="description" content="EDIT-ME - The description">
+./var/www/html/index.html:5:                <meta property="og:title" content="EDIT-ME - Main page title">
+./var/www/html/index.html:6:                <meta property="og:image" content="EDIT-ME - ./img/favico.svg">
+./var/www/html/index.html:7:                <meta property="og:description" content="EDIT-ME - The description (previews)">
+./var/www/html/index.html:8:                <title>EDIT-ME - Your title</title>
 ```
