@@ -5,7 +5,7 @@ The nginx folder is intended for hosting filestash under `filestash.YOUR-DOMAIN.
 It will proxy all the trafic from:
 ```bash
 http://YOUR-DOMAIN.com:80           -> https://YOUR-DOMAIN.com:443
-http://filestash.YOUR-DOMAIN.com:80 -> https://filestash.YOUR-DOMAIN.com:443 -> https://YOUR-DOMAIN.com:8334
+http://filestash.YOUR-DOMAIN.com:80 -> https://filestash.YOUR-DOMAIN.com:443 -> https://YOUR-DOMAIN.com:8334  
 ```
 
 ### Configuration
