@@ -9,5 +9,13 @@
 
 .text-title {
     margin: 10px auto;
+    font-size: 25px;
     text-align: center;
+}
+
+.subtitle {
+    margin: 5px auto 20px auto;
+    color: #aaa;
+    font-style: italic;
+    font-size: 18px;
 }
