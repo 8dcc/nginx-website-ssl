@@ -27,3 +27,7 @@ You will also need to edit the `EDIT-ME` on the HTML.
 ./var/www/html/index.html:7:                <meta property="og:description" content="EDIT-ME - The description (previews)">
 ./var/www/html/index.html:8:                <title>EDIT-ME - Your title</title>
 ```
+Keep in mind that you will also need to add the **CNAME** to the domain:
+```bash
+CNAME  |  filestash.YOUR-DOMAIN.com  ->  YOUR-DOMAIN.com
+```
